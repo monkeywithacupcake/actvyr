@@ -1,0 +1,46 @@
+Workout Timestamp,Live/On-Demand,Instructor Name,Length (minutes),Fitness Discipline,Type,Title,Class Timestamp,Total Output,Avg. Watts,Avg. Resistance,Avg. Cadence (RPM),Avg. Speed (mph),Distance (mi),Calories Burned,Avg. Heartrate,Avg. Incline,Avg. Pace (min/mi)
+2025-06-09 16:09 (-07),On Demand,Benny Adami,10,Cycling,Intervals,Extra 10: HIIT Ride,2025-03-16 22:00 (-07),89,148,39%,98,18.85,3.14,106,NA,NA,NA
+2025-02-24 19:42 (-08),On Demand,Sam Yo,5,Cycling,Cool Down,5 min Cool Down Ride,2023-12-07 23:00 (-08),25,83,38%,73,14.83,1.23,30,NA,NA,NA
+2025-05-06 05:43 (-07),On Demand,NA,10,Cycling,Scenic Ride,10 min Key Biscayne Ride,NA,40,67,35%,73,13.65,2.27,48,NA,NA,NA
+2025-03-10 16:52 (PST),NA,NA,47,Cycling,NA,47 min Entertainment Ride,NA,229,81,34%,84,14.82,11.68,275,NA,NA,NA
+2025-03-03 17:19 (-08),On Demand,Sam Yo,20,Cycling,Music,20 min AFO Ride: Imagine Dragons,2021-07-02 04:00 (-08),173,144,45%,81,18.6,6.2,207,NA,NA,NA
+2025-02-08 13:00 (-08),Live,Denis Morton,30,Cycling,Music,30 min Rock Ride,2025-02-08 12:56 (-08),240,133,42%,85,17.9,8.95,288,NA,NA,NA
+2025-06-09 15:29 (-07),On Demand,Tunde Oyeneyin,5,Cycling,Warm Up,5 min Get to Know Me Warm Up Ride,2025-02-09 22:00 (-07),25,85,35%,83,15.07,1.26,31,NA,NA,NA
+2025-08-29 05:47 (-07),On Demand,Denis Morton,5,Cycling,Cool Down,5 min Cool Down Ride,2025-07-15 21:00 (-07),11,36,23%,83,10.07,0.84,13,NA,NA,NA
+2025-02-27 20:02 (-08),On Demand,Denis Morton,5,Cycling,Cool Down,5 min Cool Down Ride,2024-11-14 21:00 (-08),21,70,30%,90,13.94,1.16,25,NA,NA,NA
+2025-03-20 16:05 (-07),On Demand,Jenn Sherman,30,Cycling,Theme,30 min Cover to Cover Ride,2021-11-21 04:30 (-07),235,131,42%,82,17.89,8.95,282,NA,NA,NA
+2025-02-13 05:47 (PST),On Demand,Chelsea Jackson Roberts,5,Meditation,Theme,5min Best Case of the Mondays Meditation,2025-02-09 21:00 (PST),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2025-03-14 21:40 (PST),On Demand,Kristin McGee,5,Meditation,Sleep,5 min Sleep Meditation,2020-02-20 08:00 (PST),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2025-02-23 04:58 (PST),On Demand,Nico Sarani,5,Meditation,Breath,5 min Breathing Meditation,2024-09-08 21:00 (PST),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2025-06-27 08:20 (PST),On Demand,Nico Sarani,5,Meditation,Morning,5 min Morning Meditation,2025-04-06 21:00 (PST),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2025-12-06 22:46 (PST),On Demand,Aditi Shah,5,Meditation,Sleep,5 min Sleep Meditation,2020-02-19 05:55 (PST),NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+2025-06-09 16:23 (-07),On Demand,Ben Alldis,15,Strength,Lower Body,15 min Lower Body Strength,2023-01-09 08:00 (-07),NA,NA,NA,NA,NA,NA,67,NA,NA,NA
+2025-12-12 05:34 (PST),On Demand,Matty Maggiacomo,5,Strength,Core,5 min Core Strength,2025-10-28 21:00 (PST),NA,NA,NA,NA,NA,NA,22,NA,NA,NA
+2025-02-08 13:38 (PST),On Demand,Tunde Oyeneyin,10,Strength,Upper Body,10 min Arms & Shoulders Strength,2025-02-04 21:00 (PST),NA,NA,NA,NA,NA,NA,45,NA,NA,NA
+2025-08-01 17:35 (PST),On Demand,Matty Maggiacomo,20,Strength,Upper Body,20 min Broadway Arms & Shoulders,2025-07-22 21:00 (PST),NA,NA,NA,NA,NA,NA,90,NA,NA,NA
+2025-03-14 17:15 (PST),On Demand,Kendall Toole,10,Strength,Arms & Light Weights,10 min Motley Crue Arms & Light Weights,2023-07-27 10:35 (PST),NA,NA,NA,NA,NA,NA,45,NA,NA,NA
+2025-06-12 16:31 (PST),On Demand,Ben Alldis,20,Strength,Full Body,20 min Full Body Strength,2023-01-09 07:00 (PST),NA,NA,NA,NA,NA,NA,91,NA,NA,NA
+2025-02-12 17:02 (PST),On Demand,Matty Maggiacomo,30,Strength,Full Body,30 min Full Body Strength,2025-02-06 06:23 (PST),NA,NA,NA,NA,NA,NA,135,NA,NA,NA
+2025-12-20 16:39 (PST),On Demand,Adrian Williams,10,Strength,Upper Body,10 min Arms & Shoulders Strength,2025-12-20 07:39 (PST),NA,NA,NA,NA,NA,NA,45,NA,NA,NA
+2025-02-09 12:05 (-08),Live,Katie Wang,20,Strength,Lower Body,20 min Glutes & Legs Strength,2025-02-09 12:01 (-08),NA,NA,NA,NA,NA,NA,89,NA,NA,NA
+2025-02-05 16:42 (PST),On Demand,Tunde Oyeneyin,20,Strength,Upper Body,20 min Arms & Shoulders Strength,2025-01-25 06:56 (PST),NA,NA,NA,NA,NA,NA,90,NA,NA,NA
+2025-06-12 16:53 (PST),On Demand,Ben Alldis,10,Stretching,Full Body Stretch,10 min Full Body Stretch,2023-01-09 07:00 (PST),NA,NA,NA,NA,NA,NA,22,NA,NA,NA
+2025-03-12 16:22 (-07),On Demand,Denis Morton,5,Stretching,Pre & Post-Ride Stretch,5 min Post-Ride Stretch,2025-02-04 22:00 (-07),NA,NA,NA,NA,NA,NA,11,NA,NA,NA
+2025-06-16 16:17 (PST),On Demand,Ben Alldis,10,Stretching,Full Body Stretch,10 min Full Body Stretch,2023-01-09 07:00 (PST),NA,NA,NA,NA,NA,NA,23,NA,NA,NA
+2025-06-22 17:28 (-07),On Demand,Ben Alldis,5,Stretching,Lower Body Stretch,5 min Lower Body Stretch,2023-01-09 08:00 (-07),NA,NA,NA,NA,NA,NA,11,NA,NA,NA
+2025-03-08 10:20 (-08),On Demand,Callie Gullickson,10,Stretching,Full Body Stretch,10 min Full Body Stretch,2024-04-30 22:00 (-08),NA,NA,NA,NA,NA,NA,22,NA,NA,NA
+2025-03-03 17:52 (-08),On Demand,Matt Wilpers,5,Stretching,Pre & Post-Ride Stretch,5 min AFO Post-Ride Stretch: The 1975,2022-08-19 04:15 (-08),NA,NA,NA,NA,NA,NA,11,NA,NA,NA
+2025-01-26 06:02 (PST),On Demand,Hannah Corbin,10,Stretching,Foam Rolling,10 min Foam Rolling: Hips,2023-11-07 07:00 (PST),NA,NA,NA,NA,NA,NA,22,NA,NA,NA
+2025-02-23 13:39 (-08),On Demand,Denis Morton,5,Stretching,Pre & Post-Ride Stretch,5 min Post-Ride Stretch,2023-07-11 22:00 (-08),NA,NA,NA,NA,NA,NA,11,NA,NA,NA
+2025-06-09 16:46 (-07),On Demand,Ben Alldis,5,Stretching,Lower Body Stretch,5 min Lower Body Stretch,2023-01-09 08:00 (-07),NA,NA,NA,NA,NA,NA,11,NA,NA,NA
+2025-02-27 20:07 (-08),On Demand,Denis Morton,5,Stretching,Pre & Post-Ride Stretch,5 min Post-Ride Stretch,2024-10-24 20:00 (-08),NA,NA,NA,NA,NA,NA,11,NA,NA,NA
+2025-09-01 05:50 (PST),On Demand,Denis Morton,10,Yoga,Restorative,10 min Restorative,2025-08-29 21:00 (PST),NA,NA,NA,NA,NA,NA,19,NA,NA,NA
+2025-11-20 05:29 (PST),On Demand,Kirra Michel,10,Yoga,Focus Flow,10 min Focus Flow: Floor Poses,2025-07-15 15:30 (PST),NA,NA,NA,NA,NA,NA,37,NA,NA,NA
+2025-10-07 06:45 (PST),On Demand,Denis Morton,20,Yoga,Yin Yoga,20 min Yin Yoga,2025-08-12 21:00 (PST),NA,NA,NA,NA,NA,NA,64,NA,NA,NA
+2025-02-20 07:22 (CST),On Demand,Denis Morton,10,Yoga,Flow,10 min Focus Flow: Floor Poses,2022-07-10 10:37 (CST),NA,NA,NA,NA,NA,NA,28,NA,NA,NA
+2025-01-19 05:34 (PST),On Demand,Aditi Shah,10,Yoga,Focus Flow,10 min Focus Flow: Hips,2024-01-18 04:25 (PST),NA,NA,NA,NA,NA,NA,32,NA,NA,NA
+2025-05-09 05:26 (PST),On Demand,Nico Sarani,10,Yoga,Focus Flow,10 min Focus Flow: Hips,2024-10-29 09:24 (PST),NA,NA,NA,NA,NA,NA,30,NA,NA,NA
+2025-10-09 07:06 (PST),On Demand,Denis Morton,20,Yoga,Yin Yoga,20 min Yin Yoga,2024-08-13 21:00 (PST),NA,NA,NA,NA,NA,NA,69,NA,NA,NA
+2025-12-05 05:29 (PST),On Demand,Denis Morton,10,Yoga,Restorative,10 min Restorative,2021-01-25 15:36 (PST),NA,NA,NA,NA,NA,NA,11,NA,NA,NA
+2025-04-03 05:26 (PST),On Demand,Kristin McGee,20,Yoga,Slow Flow,20 min Slow Flow,2022-05-18 05:27 (PST),NA,NA,NA,NA,NA,NA,64,NA,NA,NA
+2025-12-24 05:35 (PST),On Demand,Greta Dopp,5,Yoga,Theme,5 min Get to Know Me Yoga Warm Up,2025-12-08 21:00 (PST),NA,NA,NA,NA,NA,NA,14,NA,NA,NA
