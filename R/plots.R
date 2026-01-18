@@ -115,12 +115,13 @@ clean_monthly_type_summary <- function(df, typecolors = NULL) {
   df$type <- factor(df$type,
                     levels=typecolors$type)
   tmp <- df %>%
+    mutate(elevation = elev) %>% # rename for mean
     group_by(month, type) %>%
     summarise(distance = sum(distance, na.rm = TRUE), # miles
               elev = sum(elev, na.rm = TRUE),         # ?
               time = sum(duration, na.rm = TRUE)/60,    # hours
               avgdist = mean(distance, na.rm = TRUE), #mi/run
-              avgelev = mean(elev, na.rm = TRUE), # ft/run
+              avgelev = mean(elevation, na.rm = TRUE), # ft/run
               avgpace = mean(pace, na.rm = TRUE), # min/mile
               count = n(),
               .groups = "drop")
