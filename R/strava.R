@@ -52,13 +52,14 @@ clean_strava_file <- function(fpath,
            month = lubridate::month(date, label=TRUE),
            code = `Weather Condition`,
            temp = (`Apparent Temperature`* (9/5)) + 32,
+           elev  = `Elevation Gain` * 3.28084, # feet
            distance = `Distance...7`*0.621372,
            duration = `Moving Time`/60,
            pace = duration/distance) %>%
     { if(!is.null(this_year)) filter(., year == this_year) else (.) }%>%
     left_join(weather) %>%
     select(date, month, name = `Activity Name`, type = `Activity Type`,
-           duration, pace, distance, elev = `Elevation Gain`, condition, temp)
+           duration, pace, distance, elev, condition, temp)
 
   if(has_peloton) {
     df <- df %>%
