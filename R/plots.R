@@ -111,9 +111,9 @@ clean_monthly_type_summary <- function(df, typecolors = NULL) {
   if(is.null(typecolors)) {
     typecolors <- activity_type_colors()
   }
-  df <- df[df$type %in% typecolors$type,]
+  df <- df[df$type %in% names(typecolors),]
   df$type <- factor(df$type,
-                    levels=typecolors$type)
+                    levels=names(typecolors))
   tmp <- df %>%
     mutate(elevation = elev,
            pace = coalesce(pace, duration/distance),
