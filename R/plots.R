@@ -1,15 +1,14 @@
 activity_group_colors <- function() {
-  x <- data.frame(
-  group = c("Hike", "Walk", "Run", "Ride", "Yoga", "Strength", "Other"),
-  color = c("#4daf4a","#beaed4","#984ea3", "#375eb8", "#f9bb90","#0af9fa","#909090")
-)
+  x <- c("Hike" = "#4daf4a", "Walk" = "#beaed4", "Run" = "#984ea3",
+            "Ride" = "#375eb8", "Yoga" = "#f9bb90",
+            "Strength" = "#0af9fa", "Other" = "#909090")
   return(x)
 }
+
 activity_type_colors <- function() {
-  x <- data.frame(
-  type = c("Hike", "Walk", "Run", "Ride", "E-Bike Ride", "Peloton Ride"),
-  color = c("#4daf4a","#beaed4","#984ea3", "#375eb8", "#377eb8","#80b1d3")
-)
+  x <- c("Hike" = "#4daf4a", "Walk" = "#beaed4", "Run" = "#984ea3",
+         "Ride" = "#375eb8", "E-Bike Ride" = "#377eb8",
+         "Peloton Ride" = "#80b1d3")
   return(x)
 }
 
@@ -52,7 +51,7 @@ make_daily_activities_by_month_plot <- function(actv_df, this_year,
     mutate(lbl = paste(stringr::str_pad(month(date), 2, "left", "0"),
                        month,"~ avg:", round(avg, 0), "min"))
 
-  ddf$group <- factor(ddf$group, levels=groupcolors$group)
+  ddf$group <- factor(ddf$group, levels=names(groupcolors))
 
   p <- ggplot(ddf, aes(x = date, y = duration/60, fill = group)) +
     geom_col() +
@@ -65,7 +64,8 @@ make_daily_activities_by_month_plot <- function(actv_df, this_year,
                           round(mean(ddf$dtot, na.rm = TRUE),0)),
          caption = "includes only activities tracked in peloton or strava apps, duplicates removed",
          x = "", y = "Hours of Activity",fill = "")+
-    scale_fill_manual(labels = groupcolors$group, values = groupcolors$color) +
+    scale_fill_manual(values = groupcolors,
+                      breaks = names(groupcolors) )+
     scale_x_date(date_labels = "%d") +
     theme_minimal() +
     theme(legend.position = "bottom") +
@@ -154,13 +154,14 @@ make_mo_dist_type_plot <- function(df, typecolors = NULL) {
   if(is.null(typecolors)) {
     typecolors <- activity_type_colors()
   }
+  df <- df %>% filter(type %in% names(typecolors) )  %>%
+    mutate(type = factor(type, levels = names(typecolors)))
   p <- ggplot(df, aes(month, distance, fill = type)) +
     geom_col() +
     labs(
       x = "",
       y = "Distance (in Miles)") +
-    scale_fill_manual(labels = typecolors$type,
-                      values = typecolors$color) +
+    scale_fill_manual(values = typecolors, breaks = names(typecolors)) +
     theme_minimal() +
     theme(legend.position="top", legend.title=element_blank()) +
     guides(fill = guide_legend(nrow = 1))
@@ -189,12 +190,13 @@ make_mo_elev_type_plot <- function(df, typecolors = NULL) {
   if(is.null(typecolors)) {
     typecolors <- activity_type_colors()
   }
-  p <- ggplot(df, aes(month, elev, fill = type)) +
+  df <- df %>% filter(type %in% names(typecolors) )  %>%
+    mutate(type = factor(type, levels = names(typecolors)))
+  p <- ggplot(df, aes(x = month, y = elev, fill = type)) +
     geom_col() +
     labs(x = "",
          y = "Elevation Gain (in Feet)") +
-    scale_fill_manual(labels = typecolors$type,
-                      values = typecolors$color) +
+    scale_fill_manual(values = typecolors, breaks = names(typecolors)) +
     theme_minimal() +
     theme(legend.position="top", legend.title=element_blank())
   return(p)

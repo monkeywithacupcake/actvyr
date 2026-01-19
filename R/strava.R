@@ -52,7 +52,7 @@ clean_strava_file <- function(fpath,
            month = lubridate::month(date, label=TRUE),
            code = `Weather Condition`,
            temp = (`Apparent Temperature`* (9/5)) + 32,
-           elev  = `Elevation Gain` * 3.28084, # feet
+           elev  = coalesce(`Elevation Gain`,0) * 3.28084, # feet
            distance = `Distance...7`*0.621372,
            duration = `Moving Time`/60,
            pace = duration/distance) %>%

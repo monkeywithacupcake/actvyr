@@ -38,6 +38,7 @@ clean_activity_df <- function(strava_df,
   actv_df <- actv_df %>%
     mutate(
       pace = coalesce(pace, duration / distance),
+      elev = coalesce(elev, 0),
       group = case_when(
         grepl("Run", type) ~ "Run",
         grepl("Ride", type) ~ "Ride",
